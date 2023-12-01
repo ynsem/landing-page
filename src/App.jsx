@@ -6,7 +6,7 @@ function App() {
   const [showLanding, toggleShowLanding] = useReducer((state) => !state, false)
 
   const onClick = () => {
-    toggleShowLanding(true)
+    toggleShowLanding()
   }
 
   return (
